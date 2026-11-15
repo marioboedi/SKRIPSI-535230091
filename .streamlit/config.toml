@@ -1,0 +1,56 @@
+# Adapted from Streamlit's bundled shadcn theme, with Jakarta Siaga colors.
+[theme]
+base = "light"
+primaryColor = "#C74535"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F7F8"
+textColor = "#253342"
+linkColor = "#B43C30"
+borderColor = "#E5E8EC"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "10px"
+buttonRadius = "8px"
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&display=swap"
+headingFont = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@500;600;650;700&display=swap"
+baseFontSize = 14
+headingFontSizes = ["36px", "25px", "19px", "16px", "14px", "12px"]
+headingFontWeights = [700, 650, 600, 600, 600, 500]
+metricValueFontSize = "2rem"
+metricValueFontWeight = 650
+paddingTop = "1.25rem"
+paddingBottom = "2rem"
+linkUnderline = false
+redColor = "#B93642"
+orangeColor = "#CF6138"
+yellowColor = "#B48723"
+greenColor = "#348B79"
+blueColor = "#497B9D"
+violetColor = "#8065A5"
+grayColor = "#6B7785"
+chartCategoricalColors = ["#C74535", "#348B79", "#D9A536", "#497B9D", "#8065A5", "#EF7548"]
+dataframeBorderColor = "#E5E8EC"
+dataframeHeaderBackgroundColor = "#F6F7F8"
+dataframeHeaderTextColor = "#475569"
+
+[theme.sidebar]
+backgroundColor = "#F7F8FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#3C4A59"
+borderColor = "#E5E8EC"
+primaryColor = "#C74535"
+linkColor = "#B43C30"
+paddingTop = "1rem"
+paddingBottom = "1.5rem"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+maxUploadSize = 20
+headless = true
+address = "127.0.0.1"
+fileWatcherType = "auto"

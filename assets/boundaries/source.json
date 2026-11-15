@@ -1,0 +1,18 @@
+{
+  "publisher": "DPMPTSP Provinsi DKI Jakarta",
+  "source": "https://gis-dpmptsp.jakarta.go.id/arcgis/rest/services/Hosted/Batas_Administrasi_Kelurahan_DKI_Jakarta/FeatureServer/85",
+  "retrieved_at_utc": "2026-10-19T06:49:49.393799+00:00",
+  "crs": "EPSG:4326",
+  "counts": {
+    "kelurahan": 267,
+    "kota": 6,
+    "kecamatan": 44,
+    "provinsi": 1
+  },
+  "simplification_degrees": {
+    "kelurahan": 6e-05,
+    "kecamatan": 8e-05,
+    "kota": 8e-05
+  },
+  "note": "Batas untuk visualisasi, disederhanakan dengan menjaga topologi; bukan penetapan batas hukum. Kota dan kecamatan dihasilkan dengan union batas kelurahan."
+}
